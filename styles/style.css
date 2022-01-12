@@ -230,21 +230,22 @@
 
 .footer {
   min-height: 350px;
-  width: 90%;
-  display: flex;
-  flex-basis: 711px;
   background-color: black;
-  margin: 0;
+  padding: 60px auto 40px;
 }
 
 .footer__columns {
-  margin: 60px auto 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 711px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .footer__column_content_copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .logo_place_footer {
@@ -260,11 +261,6 @@
   color: white;
 }
 
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
 .footer__column-heading {
   margin: 0;
   line-height: 30px;
@@ -275,6 +271,14 @@
 
 .footer__column_links {
   margin: 20px 0 16px;
+}
+
+.footer__column_link {
+  
+}
+
+.footer__list {
+  list-style: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
