@@ -130,9 +130,9 @@
 }
 
 .table {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  position: relative;
   width: 1100px;
   flex-flow: row wrap;
   margin: 0 auto;
@@ -275,15 +275,14 @@
   color: white;
 }
 
-.footer__column_links {
-  margin: 20px 0 16px;
+.footer__column-links {
   list-style: none;
+  padding-left: 0;
+  margin: 20px 0 16px;
 }
 
 .footer__column-link {
   color: white;
-  list-style: none;
-  padding-left: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
