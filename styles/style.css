@@ -5,10 +5,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
   }
 
-  div, p, h1, h2, h3, ul, li, a {    
-    outline: 1px red dashed;
-    }
-
 .header {
   position: relative; 
   height: 100vh;
@@ -38,7 +34,7 @@
   font-weight: bold;
   margin: 0 0 0 64px;
   z-index: 9999;
-}
+  }
 
 .header__subtitle {
   position: absolute;
@@ -50,7 +46,7 @@
   font-weight: normal;
   margin: 0 0 30px 64px;
   z-index: 9999;
-}
+  }
 
 .header__main-illustration {
   position: absolute;
@@ -59,7 +55,7 @@
   width: 765px;
   height: 608px;
   z-index: 9998;
-}
+  }
 
 .header__square-pic {
   position: absolute;
@@ -69,7 +65,7 @@
   width: 568px;
   background-color: #2f80ed;
   margin-top: 64px;
-}
+  }
 
 .description {
   display: flex;
@@ -77,7 +73,7 @@
   width: 80vw;
   min-width: 784px;
   margin: 100px auto;
-}
+  }
 
 .two-columns__brief {
   width: 175px;
@@ -86,30 +82,30 @@
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
-}
+  }
 
 .two-columns__main-text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   margin: 0 0 30px 0;
-}
+  }
 
 .two-columns__main-text:last-of-type {
   margin: 0;
-}
+  }
 
 .span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
-}
+  }
 
 .digits {
   display: flex;
   flex-direction: column;
   margin: 100px 0;
-}
+  }
 
 .section-title {
   margin: 0 auto;
@@ -118,7 +114,7 @@
   font-size: 60px;
   font-weight: normal;
   text-align: center;
-}
+  }
 
 .section-subtitle {
   width: 60vw;
@@ -127,7 +123,7 @@
   font-weight: bold;
   text-align: center;
   margin: 0 auto 20px auto;
-}
+  }
 
 .table {
   position: relative;
@@ -137,34 +133,34 @@
   flex-flow: row wrap;
   margin: 0 auto;
   z-index: 2;
-}
+  }
 
 .table__line {
   margin-top: 60px;
-}
+  }
 
 .table__cell_theme_light {
   width: 250px;
-}
+  }
 
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin: 0;
-}
+  }
 
 .table__text {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0;
-}
+  }
 
 .feynman {
   position: relative;
   height: 890px;
-}
+  }
 
 .feynman__title {
   width: 648px;
@@ -173,7 +169,7 @@
   font-size: 120px;
   font-weight: bold;
   margin: 100px auto 70px;
-} 
+  } 
 
 .feynman__subtitle {
   text-align: center;
@@ -181,7 +177,7 @@
   font-size: 36px;
   font-weight: normal;
   margin: 0;
-}
+  }
 
 .feynman__link {
   position: absolute;
@@ -190,7 +186,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-}
+  }
 
 .feynman__image {
   position: absolute;
@@ -199,28 +195,28 @@
   bottom: 0;
   width: 867px;
   height: 637px;
-}
+  }
 
 .kaufman {
   position: relative;
   overflow: hidden;
   background-color: black;
   padding: 90px 0;
-}
+  }
 
 .section-title_theme_dark {
   color: white;
-}
+  }
 
 .section-subtitle_theme_dark {
   color: white;
-}
+  }
 
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
-}
+  }
 
 .kaufman__triangle {
   position: absolute;
@@ -231,33 +227,33 @@
   width: 877px;
   height: 877px;
   z-index: 1;
-}
+  }
 
 .footer {
   display: flex;
   min-height: 350px;
   background-color: black;
   padding: 60px 0 40px 0;
-}
+  }
 
 .footer__columns {
   display: flex;
   justify-content: space-between;
   width: 90%;
   margin: 0 auto;
-}
+  }
 
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   flex-basis: 711px;
-}
+  }
 
 .logo_place_footer {
   width: 183px;
   height: 35px;
-}
+  }
 
 .footer__author {
   margin: 18px 0;
@@ -265,7 +261,7 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-}
+  }
 
 .footer__column-heading {
   margin: 0;
@@ -273,24 +269,24 @@
   font-size: 18px;
   font-weight: bold;
   color: white;
-}
+  }
 
 .footer__column-links {
   list-style: none;
   padding-left: 0;
   margin: 20px 0 16px;
-}
+  }
 
 .footer__column-link {
   color: white;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}
+  }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
   margin: 0 10px;
   color: white;
-}
+  }
