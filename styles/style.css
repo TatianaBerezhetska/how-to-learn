@@ -132,9 +132,11 @@
 .table {
   display: flex;
   justify-content: space-between;
+  position: relative;
   width: 1100px;
   flex-flow: row wrap;
   margin: 0 auto;
+  z-index: 2;
 }
 
 .table__line {
@@ -224,10 +226,11 @@
   position: absolute;
   right: -210px;
   top: 0;
+  background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   width: 877px;
   height: 877px;
-  z-index: 0;
+  z-index: 1;
 }
 
 .footer {
@@ -274,13 +277,11 @@
 
 .footer__column_links {
   margin: 20px 0 16px;
+  list-style: none;
 }
 
 .footer__column-link {
   color: white;
-}
-
-.footer__list {
   list-style: none;
   padding-left: 0;
   line-height: 30px;
