@@ -17,9 +17,12 @@
   padding: 0;
   }
 
+.logo {
+  width: 183px;
+}
+
 .logo_place_header {
   position: absolute;
-  width: 183px;
   height: 32px;
   margin: 30px 0 0 64px;
   z-index: 9999;
@@ -44,9 +47,14 @@
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
-  margin: 0 0 30px 64px;
+  margin: 0 0 30px 0;
   z-index: 9999;
   }
+
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
 
 .header__main-illustration {
   position: absolute;
@@ -54,6 +62,7 @@
   bottom: 0;
   width: 765px;
   height: 608px;
+  object-fit: cover;
   z-index: 9998;
   }
 
@@ -71,7 +80,6 @@
   display: flex;
   justify-content: space-between;
   width: 80vw;
-  min-width: 784px;
   margin: 100px auto;
   }
 
@@ -85,6 +93,8 @@
   }
 
 .two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -162,7 +172,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   padding: 100px 0 0;
   }
@@ -193,6 +203,8 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
   z-index: 2;
   }
 
@@ -207,7 +219,7 @@
 .kaufman {
   position: relative;
   overflow: hidden;
-  background-color: black;
+  background-color: #1f1f1f;
   padding: 90px 0;
   }
 
@@ -239,7 +251,7 @@
 .footer {
   display: flex;
   min-height: 350px;
-  background-color: black;
+  background-color: #1f1f1f;
   padding: 60px 0 40px 0;
   }
 
@@ -258,7 +270,6 @@
   }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px;
   }
 
@@ -289,11 +300,12 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  text-decoration: none;
   }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin: 0 10px;
+  margin: 0 10px 0 0;
   color: white;
   }
