@@ -108,7 +108,7 @@
   margin: 0;
   }
 
-.two-columns__paragraph_span-accent {
+.two-columns__span-accent {
   font-weight: bold;
   }
 
@@ -148,9 +148,6 @@
 
 .table__cell {
   margin-top: 60px;
-  }
-
-.table__cell_theme_light {
   width: 250px;
   }
 
@@ -173,7 +170,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 890px;
+  min-height: 790px;
   background-color: #f2f2f2;
   padding: 100px 0 0;
   }
