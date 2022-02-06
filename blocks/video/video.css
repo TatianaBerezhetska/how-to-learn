@@ -1,5 +1,8 @@
 .video {
-    position: relative;
-    margin: 0 auto -50px;
-    padding-top: 100px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto -50px;
+  padding-top: 100px;
 }
